@@ -1,0 +1,10 @@
+@import-normalize;
+
+
+:root{
+  font-family: "League Spartan", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.app{
+  margin-top: 130px;
+}
