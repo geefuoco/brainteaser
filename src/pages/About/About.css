@@ -1,0 +1,14 @@
+.about{
+  display: flex;
+  justify-content: center;
+}
+
+
+.about-title{
+  font-size: 1.2rem;
+  text-shadow: 2px 0 0 black;
+}
+
+.about-description{
+  color: #2d2d2d;
+}
