@@ -1,14 +1,23 @@
 .about{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 
 .about-title{
-  font-size: 1.2rem;
-  text-shadow: 2px 0 0 black;
+  font-size: 2rem;
 }
 
 .about-description{
+  width:600px;
+  text-align: start;
+  font-size: 1.2rem;
   color: #2d2d2d;
+}
+
+@media screen and (max-width: 768px){
+  .about-description{
+    width: 100%;
+  }
 }
